@@ -1,3 +1,6 @@
+#ifndef HEADER_HPP
+#define HEADER_HPP
+
 
 #include <iostream>
 
@@ -27,3 +30,5 @@ T	max(T a, T b)
 	else
 		return b;
 }
+
+#endif
