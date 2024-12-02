@@ -81,7 +81,8 @@ class Array
 template <typename T>
 std::ostream& operator<<(std::ostream& os, const Array<T> &ptr)
 {
-	for (unsigned int i = 0; i < ptr.size(); i++) {
+	for (unsigned int i = 0; i < ptr.size(); i++)
+	{
 		os << ptr[i] << ", " << std::endl;
 	}
 	return os;

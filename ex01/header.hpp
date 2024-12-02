@@ -8,7 +8,7 @@ void iter(T* array, size_t length, void (*foo)(T &))
 {
 	if (array == NULL || foo == NULL)
 		return ;
-	for (size_t i = 0; i < length; ++i)
+	for (size_t i = 0; i < length; i++)
 		foo(array[i]);
 }
 
@@ -17,7 +17,7 @@ void iter(const T* array, size_t length, void (*foo)(const T&))
 {
 	if (array == NULL || foo == NULL)
 		return;
-	for (size_t i = 0; i < length; ++i)
+	for (size_t i = 0; i < length; i++)
 		foo(array[i]);
 }
 
