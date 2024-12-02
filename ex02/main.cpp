@@ -72,6 +72,7 @@ int main(void)
 		for(int i =0;i < 3; i++)
 			std::cout << "number["<<i<<"]: " << number[i] << std::endl;
 		std::cout<<"Size of this array is: " << number.size() << std::endl;
+		std::cout<< "Printing using the operator: " << number << std::endl;
 	}
 	catch(const std::exception& e)
 	{
@@ -111,6 +112,7 @@ int main(void)
 		{
 			std::cout << "chara["<<i<<"]: " << chara[i] << std::endl;
 		}
+		std::cout << chara <<std::endl;
 		std::cout<<"Size of this array is: " << chara.size() << std::endl;
 	}
 	catch(const std::exception& e)
